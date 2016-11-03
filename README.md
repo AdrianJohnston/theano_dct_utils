@@ -1,5 +1,5 @@
 # theano_dct_utils
-Small package for computing DCT coefficients in Theano.
+Small package for computing Discrete Cosine Transform (DCT) coefficients in Theano.
 
 ##Install 
 ```
