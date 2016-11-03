@@ -1,6 +1,8 @@
 # theano_dct_utils
 Small package for computing Discrete Cosine Transform (DCT) coefficients in Theano.
 
+All functions are orthonormalized and tested against scipy.fftpack implementations. There are accurate to approx 1e-6 of the scipy imeplemntations. 
+
 ##Install 
 ```
 python setup.py build
