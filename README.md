@@ -2,10 +2,10 @@
 Small package for computing DCT coefficients in Theano.
 
 ##Install 
-
+```
 python setup.py build
 python setup.py install --user
-
+```
 #API
 
 * numpy_dct_matrix(M)
