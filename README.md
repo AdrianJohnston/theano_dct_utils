@@ -12,9 +12,11 @@ python setup.py install --user
 
     Computes the NxN DCT matrix. This function is adapted from dctmtx in Matlab
     1D DCT can be performed as follows:
+    ```python
     x = <Theano Vector>
     D = theano_dct_matrix(10)
     dct_coefs = D.dot(x)
+    ```
     param N: size of the DCT Matrix
     return: Theano Matrix containing DCT matrix.
 
@@ -22,9 +24,11 @@ python setup.py install --user
     
     Computes the NxN DCT matrix. This function is adapted from dctmtx in Matlab
     1D DCT can be performed as follows:
+    ```python
     x = <Theano Vector>
     D = theano_dct_matrix(10)
     dct_coefs = D.dot(x)
+    ```
     param N: size of the DCT Matrix
     return: Theano Matrix containing DCT matrix.
     
